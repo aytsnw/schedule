@@ -1,0 +1,3 @@
+
+#capitalize first letter of entry
+#implement binary search to schedule_calendar to find correct index corresponding to "now()"
