@@ -1,0 +1,5 @@
+*.db
+.vscode
+__pycache
+*.pyc
+goals.txt
