@@ -82,18 +82,21 @@ class Day(Route):
         if window_name == "add_task":
             if self.add_task_window_check:
                 self.add_task_window.destroy()
+                self.master.windows.pop(window_name)
                 self.add_task_window_check = False
             else:
                 return
         elif window_name == "edit_task":
             if self.edit_task_window_check:
                 self.edit_task_window.destroy()
+                self.master.windows.pop(window_name)
                 self.edit_task_window_check = False
             else:
                 return
         elif window_name == "remove_all":
             if self.remove_all_window_check:
                 self.remove_all_window.destroy()
+                self.master.windows.pop(window_name)
                 self.remove_all_window_check = False
             else:
                 return
