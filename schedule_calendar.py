@@ -19,7 +19,9 @@ class Calendar(CalendarImport):
 
     def set_index(self, custom_date : datetime=None):
         """Set calendar indices."""
-        #Try to implement binary search to find the match instead of nested for loops.
+        #TODO: implement hash or binary search to find match in the future. No need to worry about this now because
+        #the efficiency of this function is still far away from being the performance bottleneck since it is only executed
+        #once during the initialization and the data set tends not to grow further considerably.
         if not custom_date:
             now = datetime.now()
             for year_index, year in enumerate(self.years):
