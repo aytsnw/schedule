@@ -1,5 +1,6 @@
 # Schedule
 ![Demo](demo/Schedule%20v0.0.0.gif)
+#### Watch full video on Youtube: https://www.youtube.com/watch?v=EzzKXPiteHU
 ### Disclaimer
 This software was a didactic approach I idealized as an aspiring developer. The main goal was to learn more from python and OOP, 
 as well as to generaly improve via a personal project, thus I've chosen not to delegate any part of this code to AI.
